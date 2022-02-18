@@ -1,0 +1,104 @@
+.experience {
+    height: 150vh;    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #eee;
+}
+
+.experience__container {
+    width: 80%;   
+}
+
+.experience__heading {
+    margin: 5rem 4rem 8rem 0;
+}
+
+.experience__heading--primary {
+    font-size: 3.3rem;
+    color: var(--color-silver);
+}
+
+.experience__heading--primary > span {
+    margin-right: 1rem;
+    color: var(--color-red);
+}
+
+.experience__box {
+   
+    /* padding: 1rem 0; */
+    
+}
+
+/* .experience__list--buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+
+.btn {
+    outline: none;
+    background: none;
+    text-decoration: none;
+    border: none;
+    color: var(--color-grey);
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1.8rem 3rem;
+    border-left: 1px solid #eee;
+}
+
+.btn:hover {
+    color: var(--color-red);
+    background-color: rgb(17, 25, 37);
+    cursor: pointer;
+    border-radius: 4px;
+} */
+
+
+/* .experience__bullets {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience__bullets--header {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.bullets__header--primary > span {
+    color: var(--color-red);
+    margin-left: .5rem;
+}
+
+.experience__bullets--header > p {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.experience__bullets--list {
+    margin-left: 3rem;    
+    position: relative;
+}
+
+.bullets__list--items > li::before {
+    content: "➔";
+    position: absolute;
+    left: -3rem;
+    color: var(--color-red);
+}
+
+.bullets__list--items > li {
+    color: #bbbbbb;
+    font-family: 'Segoe UI',
+    monospace;
+    font-size: 1.7rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 2.4rem;
+    padding-bottom: 1.5rem;
+    list-style: none;
+} */

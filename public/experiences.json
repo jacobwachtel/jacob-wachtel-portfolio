@@ -1,0 +1,20 @@
+[
+    {
+        "name": "theITSupportCenter",
+        "title": "Senior CTA & dCTA",
+        "dates": "Oct 2021 - Present",
+        "bullets": ["Managed 1.2K+ tech support issues for 30+ clients (e.g. Department of Defense, Shipping, Industrial). Within a 15-35 minutes support engagement, I understood the issue, analyzed root causes, and then troubleshooted to resolution. Current results are a 9.8 out of 10 QAS rating (top 5% in the company with a standard 9.2 benchmark).","Authored and updated current Knowledge Base articles to increase our response time to support issues.","Consulted and mentoring other CTAs on a wide range of tech issues and company processes." ]
+    },
+    {
+       "name": "theITSupportCenter",
+        "title": "dCTA",
+        "dates": "June 2021 - Oct 2021",
+        "bullets": ["Spearheaded the Dedicated Support position, providing support to one specific $500mil+ client on their SaaS product.","Through continual learning, communicating with key stakeholders over support issues, and identifying, authoring, and updating Knowledge Base articles, the team and I were able to reduce time to resolution by almost 20%.","Regularly communicated with my company director as well as client manager about the needs and effectiveness of our ongoing support."]
+    },
+    {
+       "name": "theITSupportCenter",
+        "title": "CTA",
+        "dates": "Nov 2020 - June 2021",
+        "bullets": ["Advised and resolved customer issues through phone or email support.", "Researched and implemented solutions and workarounds to a variety of unique problems.","Continually learned and trained on a variety of technical and software packages for companies", "Educated customers on the issues they are facing and potential steps to resolve them in the future."]
+    }
+]

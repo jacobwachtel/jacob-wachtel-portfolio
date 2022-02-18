@@ -1,0 +1,98 @@
+.experience__history {
+    margin: 2rem 2rem;
+    flex-direction: column;
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+}
+
+.experience__history--item{
+    margin-bottom: 4rem;
+    width: 30%;
+    transition: 0.2s;
+}
+
+.experience__history--item:nth-child(2){
+    position: relative;
+    top: -15rem;
+    left: 33%;
+}
+
+.experience__history--item:nth-child(3) {
+    position: relative;
+    top: -25rem;
+    left: 66%;
+}
+
+.experience__history--item {
+    border-bottom: 1px solid rgba(219, 219, 219, 0.137);
+    border-right: 1px solid rgba(219, 219, 219, 0.137);
+    margin-right: 2rem;
+    box-shadow: .8rem .8rem 1rem rgba(18, 26, 39, .6);
+
+}
+
+.experience__history--item:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 1rem 1rem 1rem rgba(18, 26, 39, .7);
+}
+
+.experience__heading {
+    display: flex;
+    position: relative;
+}
+
+.history__header--primary {
+   font-size: 2.0rem;
+   margin-bottom: 2rem;
+}
+
+.history__header--primary > span {
+    color: var(--color-red);
+    margin-left: .5rem;
+}
+
+.heading-line {
+    display: block;
+    position: relative;
+    top: -1.5rem;
+    margin-left: 3rem;
+    width: 20rem;
+    border-bottom: 1px solid rgba(219, 219, 219, 0.137);
+}
+
+.experience__history--header>p {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.experience__history--list {
+    margin-left: 8rem;
+    position: relative;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.bullets__list--items>li::before {
+    content: "➔";
+    position: absolute;
+    left: -3rem;
+    color: var(--color-red);
+}
+
+.bullets__list--items>li {
+    color: #bbbbbb;
+    font-family: 'Segoe UI',
+        monospace;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 2.4rem;
+    padding-bottom: 1.5rem;
+    list-style: none;
+}
+

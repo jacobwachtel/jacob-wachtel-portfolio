@@ -1,0 +1,56 @@
+.section__about {
+    height: 100vh;
+    /* width: 50%; */
+    margin: 0px auto;
+    padding: 0 8rem 2rem 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+}
+
+.section__heading {
+    /* margin: 0 5rem 2rem 5rem; */
+    width: 55%;
+    margin-bottom: 3rem;
+}
+
+.section__heading--primary {
+    font-size: 3.3rem;
+    margin-bottom: 2rem;
+    color: var(--color-silver);
+}
+
+.section__heading--primary > span {
+    color: var(--color-red);
+    margin-right: 2rem;
+}
+
+.section__heading--text {
+    color: var(--color-silver);
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section__heading--text > p {
+    padding: 1.5rem 1rem; 
+}
+
+.section__tech--primary {
+    color: var(--color-silver);
+    font-size: 2.2rem;
+    margin: 1.5rem 1rem;
+}
+
+.section__tech--items {
+    padding: 0 5rem;
+    color: var(--color-red);
+    font-size: 1.6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .8rem;
+    
+    justify-items: flex-start;
+    align-items: center;
+}
