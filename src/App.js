@@ -4,6 +4,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import HeroSection from './components/HeroSection';
 import Navbar from './components/Navbar';
+import Projects from './components/Projects';
 
 function App() {
    const [experiences, setExperiences] = useState([]);
@@ -22,6 +23,7 @@ function App() {
          <HeroSection />
          <About />
          {experiences && <Experience experiences={experiences} />}
+         <Projects />
       </>
    );
 }

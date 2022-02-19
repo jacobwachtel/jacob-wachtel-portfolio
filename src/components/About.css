@@ -37,6 +37,10 @@
     padding: 1.5rem 1rem; 
 }
 
+.red-text {
+    color: var(--color-red);
+}
+
 .section__tech--primary {
     color: var(--color-silver);
     font-size: 2.2rem;

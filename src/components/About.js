@@ -12,10 +12,14 @@ const About = () => {
             <div className="section__heading--text">
                <p>
                   Two years ago after losing my job to Covid, I was ready for a
-                  career change and looking into IT. But, instead of an IT
-                  certification, I decided to take a JavaScript course
+                  career change and began looking into IT certifications. I
+                  started taking Network+, stumbled upon a Javascript course and
+                  realized...this is what I want to do, instead!
                </p>
-               <p>...and it blew me away. I loved it!</p>
+               <p>
+                  <span className="red-text">It blew me away</span>...I loved
+                  it!
+               </p>
                <p>
                   What you could do, and what you could create...It was amazing!
                   And it hit all of my passions: analyzing, problem-solving,
@@ -27,8 +31,12 @@ const About = () => {
                   away and seeing something develop from nothing. Creating
                   something beautiful and aesthetically pleasing. Building
                   something practical and useful, something seamless and easy to
-                  use, and something that can actually make people’s lives
-                  better and far more enriching.
+                  use, and{' '}
+                  <span className="red-text">
+                     something that can actually make people’s lives better and
+                     far more enriching
+                  </span>
+                  .
                </p>
                <p>
                   It's cliche, I know, but it’s still a value of mine. And, like

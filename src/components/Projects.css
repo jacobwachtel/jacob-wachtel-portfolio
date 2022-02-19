@@ -1,0 +1,38 @@
+.projects__container {
+    height: 100vh;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects__heading--primary {
+    font-size: 3.5rem;
+    color: #eee;
+    margin-bottom: 5rem;
+}
+
+.projects__heading--primary > span {
+    color: var(--color-red);
+    margin-right: 2rem;
+}
+
+.project__items {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    color: #eee;
+}
+
+.project__items--header {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+
+
+#project-photo {
+    width: 50rem;
+}
+
