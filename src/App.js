@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 
 function App() {
    const [experiences, setExperiences] = useState([]);
+   const [projects, setProjects] = useState([]);
 
    useEffect(() => {
       fetch('/experiences.json')
@@ -15,7 +16,13 @@ function App() {
          .then((data) => setExperiences(data));
    }, []);
 
-   console.log(experiences);
+   useEffect(() => {
+      fetch('/projects.json')
+         .then((res) => res.json())
+         .then((data) => setProjects(data));
+   }, []);
+
+   console.log(projects);
 
    return (
       <>
@@ -23,7 +30,7 @@ function App() {
          <HeroSection />
          <About />
          {experiences && <Experience experiences={experiences} />}
-         <Projects />
+         {projects && <Projects projects={projects} />}
       </>
    );
 }

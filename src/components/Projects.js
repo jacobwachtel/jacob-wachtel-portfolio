@@ -1,31 +1,47 @@
 import React from 'react';
 import './Projects.css';
-import splitterApp from '../images/splitter-app.png';
+import ProjectList from './ProjectList';
+import Loading from './Loading';
 
-const Projects = () => {
+const Projects = ({ projects }) => {
    return (
       <section className="projects__container">
          <div className="projects__heading">
             <h2 className="projects__heading--primary">
                <span>(3)</span>Projects
             </h2>
+            <div className="heading-line"></div>
          </div>
-         <div className="project__items">
-            <div className="project__items--content">
-               <div className="project__items--header">
-                  <h3>Project Name</h3>
-               </div>
-               <div className="project__items--description">
-                  <p>
-                     Short Project Description about what it is, what it does,
-                     and what it was built with
-                  </p>
-               </div>
-            </div>
-            <img src={splitterApp} alt="project title" id="project-photo" />
+         <div className="all-projects">
+            {projects.length <= 0 ? (
+               <Loading />
+            ) : (
+               projects.map((project, index) => (
+                  <ProjectList
+                     key={index}
+                     name={project.name}
+                     description={project.description}
+                     image={project.image}
+                     link={project.link}
+                  />
+               ))
+            )}
          </div>
       </section>
    );
 };
 
 export default Projects;
+
+//  {
+//     projects &&
+//        projects.map((project, index) => (
+//           <ProjectList
+//              key={index}
+//              name={project.name}
+//              description={project.description}
+//              image={project.image}
+//              link={project.link}
+//           />
+//        ));
+//  }
