@@ -2,7 +2,7 @@
     {
         "name": "React To-Do App",
         "description":"Short Project Description about what it is, what it does, and what it was built with, why it exists, and what I learned in the process.",
-        "image":"./splitter-app.png",
+        "image":"./react-todo-app.png",
         "link":"https://react-todo-app-jw.netlify.app"
     },
     {
@@ -12,15 +12,15 @@
         "link":"https://tip-splitter-appps.netlify.app"
     },
     {
-        "name": "Outdoor Tours Landing Page",
+        "name": "Outdoor Tours",
         "description":"Short Project Description about what it is, what it does, and what it was built with, why it exists, and what I learned in the process.",
-        "image":"./splitter-app.png",
+        "image":"./outdoor-tours.png",
         "link":"https://outdoor-tours-landingpage.netlify.app"
     },
     {
         "name": "Weather App",
         "description":"Short Project Description about what it is, what it does, and what it was built with, why it exists, and what I learned in the process.",
-        "image":"./splitter-app.png",
+        "image":"./weather-app.png",
         "link":"https://weather-app-concept.netlify.app"
         
     }

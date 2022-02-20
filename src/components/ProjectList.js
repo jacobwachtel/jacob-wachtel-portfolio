@@ -4,24 +4,19 @@ import styled from 'styled-components';
 const ProjectList = ({ name, description, link, image }) => {
    //    console.log(projects[0].image);
    return (
-      <div className="project__items">
-         <div className="project__items--content">
-            <div className="project__items--header">
-               <h3>{name}</h3>
+      <a href={link}>
+         <div className="project__items">
+            <div className="project__items--content">
+               <div className="project__items--header">
+                  <h3>{name}</h3>
+               </div>
+               <div className="project__items--description">
+                  <p>{description}</p>
+               </div>
             </div>
-            <div className="project__items--description">
-               <p>{description}</p>
-            </div>
+            <ProjectPhoto imagePath={image} />
          </div>
-         <ProjectPhoto imagePath={image}>
-            <a
-               href={link}
-               rel="noopener noreferrer"
-               target="blank"
-               id="project-photo"
-            ></a>
-         </ProjectPhoto>
-      </div>
+      </a>
    );
 };
 

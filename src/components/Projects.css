@@ -41,6 +41,10 @@
     justify-items: flex-end;
 }
 
+a {
+    text-decoration: none;
+}
+
 .project__items {
     width: 60rem;
     height: 40rem;
@@ -65,18 +69,18 @@
 
 .project__items--content:hover {
     opacity: 1;
-    background-color: rgba(0,0,0, .8);
+    background-color: rgba(0,0,0, .9);
     cursor: pointer;
 }
 
 
 .project__items--header {    
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 2rem;
     color: var(--color-red);
     position: relative;
     top: 20%;
-    left: 30%;
+    left: 25%;
     
 }
 
