@@ -5,6 +5,7 @@ import Experience from './components/Experience';
 import HeroSection from './components/HeroSection';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
+import Sidebar from './components/Sidebar';
 
 function App() {
    const [experiences, setExperiences] = useState([]);
@@ -27,6 +28,7 @@ function App() {
    return (
       <>
          <Navbar />
+         <Sidebar />
          <HeroSection />
          <About />
          {experiences && <Experience experiences={experiences} />}

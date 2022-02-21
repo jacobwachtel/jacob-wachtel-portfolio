@@ -69,13 +69,15 @@ a {
 
 .project__items--content:hover {
     opacity: 1;
-    background-color: rgba(0,0,0, .9);
+    background-color: rgba(0,0,0, .85);
     cursor: pointer;
 }
 
 
-.project__items--header {    
+.project__items--header { 
+    font-family: "Roboto Mono", sans-serif;   
     font-size: 2.5rem;
+    font-weight: 700;
     padding: 2rem;
     color: var(--color-red);
     position: relative;
