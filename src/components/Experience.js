@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Experience.css';
-import ExperienceButton from './ExperienceButton';
 import ExperienceHistory from './ExperienceHistory';
 
 const Experience = ({ experiences }) => {

@@ -1,6 +1,5 @@
 import React from 'react';
 import './HeroSection.css';
-import heroSvg from '../images/coding_flatline.svg';
 import undrawCoding from '../images/undraw_coding.svg';
 
 const HeroSection = () => {
